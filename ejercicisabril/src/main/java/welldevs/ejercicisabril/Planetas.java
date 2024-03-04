@@ -10,14 +10,14 @@ package welldevs.ejercicisabril;
  */
 public class Planetas {
 
-    private float massa;
-    private float densitat;
-    private float diametre;
-    private float distanciasol;
+    private double massa;
+    private double densitat;
+    private double diametre;
+    private double distanciasol;
     private int numiden;
     private String nom;
     
-     public Planetas(float massa, float densitat, float diametre, float distanciasol, int numiden, String nom) {
+     public Planetas(double massa, double densitat, double diametre, double distanciasol, int numiden, String nom) {
         
         this.massa = massa;
         this.densitat= densitat;
@@ -28,18 +28,18 @@ public class Planetas {
     }
     
      
-     public float getMassa() {
+     public double getMassa() {
         return massa;
     }
 
-    public float getDensitat() {
+    public double getDensitat() {
         return densitat;
     }
 
-    public float getDiametre() {
+    public double getDiametre() {
         return diametre;
     }
-    public float getDistanciasol() {
+    public double getDistanciasol() {
         return distanciasol;
     }
 

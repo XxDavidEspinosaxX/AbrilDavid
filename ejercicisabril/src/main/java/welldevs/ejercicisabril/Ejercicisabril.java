@@ -11,7 +11,7 @@ package welldevs.ejercicisabril;
 public class Ejercicisabril {
 
     public static void main(String[] args) {
-        Planetas p1 = new Planetas(123.3, 233.4, 3435.23, 34523.2, 435263.4, 105, "Saturno");
+        Planetas p1 = new Planetas(123.3, 233.4, 3435.23, 34523.2,1, "Saturno");
         System.out.println("Massa de "+ p1.getNom()+":"+p1.getMassa());
         System.out.println("Densitat de "+ p1.getNom()+":"+p1.getDensitat());
         System.out.println("Diametre de "+ p1.getNom()+":"+p1.getDiametre());
